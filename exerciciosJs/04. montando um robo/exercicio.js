@@ -1,7 +1,7 @@
 const lista = document.querySelector("ul");
 
-const botaoMostrar = document.querySelector("#mostrar");
-const botaoEsconder = document.querySelector("#esconde");
+const botaoMostrar = document.querySelector("[botao=mostrar]");
+const botaoEsconder = document.querySelector("[botao=esconde]");
 
 botaoMostrar.addEventListener("click", () => {
   lista.setAttribute("data-lista", "mostrar");
