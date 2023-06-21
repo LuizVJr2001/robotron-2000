@@ -37,12 +37,25 @@ main {
     position: relative;
 }
 
+.botoes {
+    position: relative;
+    right: 5%;
+    bottom: 10%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.alterar {
+    margin: 2px;
+    width: 200px;
+}
+
 .robo {
     height: 110%;
     z-index: 1;
     position: absolute;
     left: -20%;
-    top: -5%;
+    top: -0%;
 }
 
 .titulo {
@@ -62,7 +75,7 @@ main {
     background: rgba(0,0,0,0.6);
     clip-path: polygon(calc(100% - 30px) 0, 100% 30px, 100% calc(100% - 30px), calc(100% - 30px) 100%, 30px 100%, 0 calc(100% - 30px), 0 30px, 30px 0);
     border-left: 5px solid var(--main-cinza);
-    height: 80%;
+    height: 90%;
 }
 
 /****************************** Equipamentos *****/
